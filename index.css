@@ -195,13 +195,16 @@ footer li{
     *{
         font-size: 33.5%;;
     }
+    a{
+        font-size: 1.8rem;
+    }
     .header1{
         align-items: center; 
     } 
       
     
     .rrrr{
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     
@@ -231,7 +234,10 @@ footer li{
     .section2-class{
         width:55%;
     }
-
+    .search-bar{
+        margin-left:.5rem;
+        margin-right:.7rem;
+    }
     .image-div2{
         width:50rem;
     }
