@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-size:62.5%;
+}
+p,h1,h2,h3,h4,h5,h6{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.outer-most{
+    width:100%;
+    height:100vh;
+    background-image: url("im1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+     display: flex;
+    /* background: linear-gradient(to top right ,rgb(100, 150, 212) ,rgb(171, 53, 201)); */
+   
+}
+.inner-div{
+    margin:0 auto;
+    width:30vw;
+}
+#form{
+    overflow: auto;
+    width:100%;
+    height:45rem;
+    padding:1rem 2rem;
+    box-shadow:.6rem .4rem 1.1rem .4rem rgb(51, 87, 90);
+    margin:10rem auto;
+}
+
+/* .login{
+    width:50vw;
+    display:flex;
+    flex-direction: row;
+    border:.2rem solid red;
+    padding:2rem 3rem;
+
+} */
+#h1-login{
+    font-size: 2.3rem;
+    font-weight: bold;
+    color:rgba(236, 238, 113, 0.89);
+    text-align: center; 
+}
+
+.label-class{
+    font-size: 1.7rem;
+    color:rgb(0, 0, 0);
+    font-weight: 400;
+}
+label{
+    margin-bottom: .6rem;
+    font-weight: bold;
+}
+
+
+input{
+    width:95%;
+    height:5vh;
+    padding:.2rem .3rem;
+    border: 2px solid #cccc;
+    border-radius: 4px;
+    font-size:1.5rem;
+    margin:0.3rem 0;
+    color:rgb(0, 0, 0);
+}
+.Forgot { 
+    position: relative;
+    font-size: 1.5rem;
+    color: blue;
+    font-weight: 200;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right:1.5rem;
+    
+}
+.Forgot:hover{
+    color: rgb(0, 81, 255);
+}
+.login{
+    background-color: blue;
+    color:white;
+    cursor: pointer;
+    border: none;   
+}
+.reset{
+    background-color:blue;
+    color:white;
+    border:none;
+}
+.reset:hover{
+    background-color: rgb(16, 16, 158);
+}
+
+
+footer{
+    text-align: center;
+}
+
+#login-page{
+    font-size:2rem;
+    color: black;
+}
+#login-page a{
+    color: red;
+    font-size:1.4rem;
+}
+
+#login-page a:hover{
+    color: rgb(131, 20, 20);
+}
+
+
+
+
+
+
+
+
+/* phone */
+
+
+@media (max-width:768px) {
+    .inner-div{
+        width:75%;
+    }
+    .Forgot { 
+        font-size: 1.3rem;
+    }
+    #login-page{
+        font-size:1.5rem;
+    }
+    #login-page a{
+        font-size:1rem;
+    }
+    
+}
+
+
+
+/* phone end */
+
+
+/* ipad */
+
+
+@media(min-width:769px) and (max-width:1023px) {
+    .inner-div{
+        width:70%;
+    }
+    .Forgot { 
+        font-size: 1.4rem;
+    }
+    
+}
+
+
+
+/* ipad end */
