@@ -113,7 +113,7 @@ button a{
 }
 .section1-class
 {
-    width:40%;
+    width:40vw;
     
 }
 h3{
@@ -210,12 +210,16 @@ footer li{
     
     .common-width{
         width:10%;
+        margin-right:1.2rem;
     }
     
     /* section  start */
     
     .section1{
         flex-direction:column;    
+    }
+    .section1-class {
+        width:85vw;
     }
     ul{
         margin-bottom: 3rem;
@@ -229,10 +233,7 @@ footer li{
         gap:6rem
     }
     .section2-class{
-        width:55%;
-    }
-    .section2-class{
-        width:55%;
+        width:85vw;
     }
     .search-bar{
         margin-left:.5rem;
@@ -272,6 +273,7 @@ footer li{
     }
     .header1{
         align-items: center; 
+        height:10rem;
     } 
       
     
@@ -287,13 +289,17 @@ footer li{
     /* section  start */
     
     .section1{
-        flex-direction:column;    
+        flex-direction:column; 
+        justify-content: space-between;   
+    }
+    .section1-class{
+        width:70vw;
     }
     ul{
         margin-bottom: 3rem;
     }
     .image-div{
-        width:55rem;    
+        width:65rem;    
     }
 
     /* section2 class */
@@ -301,14 +307,11 @@ footer li{
         gap:6rem
     }
     .section2-class{
-        width:55%;
+        width:70vw;
     }
-    .section2-class{
-        width:55%;
-    }
-
+   
     .image-div2{
-        width:50rem;
+        width:58rem;
     }
     .mobile-order1{
         order:2;
